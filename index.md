@@ -1,4 +1,4 @@
-# EDA 1 / Programación 2 — Universidad Nacional de Luján
+# Estructuras de Datos y Algoritmos 1 / Programación 2
 
 Bienvenidas y bienvenidos al sitio oficial de las asignaturas **Estructuras de Datos y Algoritmos 1** (EDA 1, plan nuevo) y **Programación 2** (plan viejo).
 
@@ -32,45 +32,28 @@ Cubre el programa **completo** de estructuras de datos y algoritmos:
 
 **→ [Ver cronograma y materiales específicos de Programación 2](guia-prog2.md)**
 
----
-
-## ✅ Condiciones de aprobación
-
-Para aprobar la cursada de cualquiera de las dos materias:
-
-1. **2 Exámenes Parciales** — Deben aprobarse con nota ≥ 4 (cuatro). 
-   - Cada parcial tiene **1 recuperatorio**.
-   - Se puede recuperar **hasta 2 parciales**.
-
-2. **1 Trabajo Práctico Integrador** — Trabajo de programación que integra los conceptos de la cursada.
-   - Debe entregarse en tiempo y forma.
-   - Debe aprobarse para acceder al examen final.
-
-3. **Examen Final** — Una vez aprobada la cursada, rinden el examen final para obtener la nota definitiva de la materia.
-
----
 
 ## 📖 Programa de contenidos
 
 ### Contenidos comunes (EDA 1 y Programación 2)
 
-| Unidad | Tema | Descripción |
-|--------|------|-------------|
-| **TP0** | **Repaso de C** | Conceptos previos: punteros, memoria dinámica, estructuras |
-| **TP1** | **Recursividad** | Funciones recursivas, casos base, análisis |
-| **TP2** | **TADs** | Tipos Abstractos de Datos, interface vs implementación |
-| **TP Integrador** | **Sopa de letras** | Trabajo práctico integrador |
-| **TP3** | **Listas** | Listas enlazadas, simples, dobles, circulares |
-| **TP4** | **Pilas** | Estructuras LIFO (Last In, First Out) |
-| **TP5** | **Colas** | Estructuras FIFO (First In, First Out) |
+| Unidad            | Tema             | Descripción                                                |
+|-------------------|------------------|------------------------------------------------------------|
+| **TP0**           | **Repaso de C**  | Conceptos previos: punteros, memoria dinámica, estructuras |
+| **TP1**           | **Recursividad** | Funciones recursivas, casos base, análisis                 |
+| **TP2**           | **TADs**         | Tipos Abstractos de Datos, interface vs implementación     |
+| **TP Integrador** | A definir        | Trabajo práctico integrador                                |
+| **TP3**           | **Listas**       | Listas enlazadas, simples, dobles, circulares              |
+| **TP4**           | **Pilas**        | Estructuras LIFO (Last In, First Out)                      |
+| **TP5**           | **Colas**        | Estructuras FIFO (First In, First Out)                     |
 
 ### Contenidos adicionales (solo Programación 2)
 
-| Unidad | Tema | Descripción |
-|--------|------|-------------|
-| **TP6** | **Árboles** | Árboles binarios, árboles AVL, recorridos |
-| **TP7** | **Tablas Hash** | Funciones de hash, colisiones, resolución |
-| **TP8** | **Conjuntos** | Operaciones de conjuntos, implementaciones |
+| Unidad  | Tema            | Descripción                                |
+|---------|-----------------|--------------------------------------------|
+| **TP6** | **Árboles**     | Árboles binarios, árboles AVL, recorridos  |
+| **TP7** | **Tablas Hash** | Funciones de hash, colisiones, resolución  |
+| **TP8** | **Conjuntos**   | Operaciones de conjuntos, implementaciones |
 
 ---
 
@@ -97,17 +80,21 @@ Desde allí encontrarás:
 - Guías de configuración del ambiente (VS Code, Git)
 - Cronogramas específicos por materia
 
-### 💻 Guía Base — Código fuente de TADs
-Repositorio con implementaciones de referencia de todas las estructuras de datos en C. **Clona este repositorio** para trabajar con el código:
+### 💻 Guía Base — Plantilla de proyecto para equipos
+Repositorio plantilla que contiene la estructura base del proyecto con archivos para completar a lo largo de toda la cursada.
+
+**Usa este repositorio como plantilla** para crear el repositorio de tu equipo:
 
 **→ [github.com/unlu-prog-2/guia-base](https://github.com/unlu-prog-2/guia-base)**
 
-```bash
-git clone https://github.com/unlu-prog-2/guia-base.git
-```
+**Pasos para crear tu repositorio:**
+1. Ir al repositorio [guia-base](https://github.com/unlu-prog-2/guia-base)
+2. Hacer clic en el botón **"Use this template"** → **"Create a new repository"**
+3. Crear un repositorio nuevo para tu equipo (ej: `equipo-01-tp`)
+4. Clonar **tu nuevo repositorio** para comenzar a trabajar
 
-Incluye:
-- Implementaciones completas de Listas, Pilas, Colas, Árboles, Tablas Hash, Conjuntos
+El repositorio incluye:
+- Estructura de directorios para TADs (Listas, Pilas, Colas, Árboles, Tablas Hash, Conjuntos)
 - Tests automatizados con CTest
 - Utilidades y aserciones
 - Proyecto CMake listo para compilar
