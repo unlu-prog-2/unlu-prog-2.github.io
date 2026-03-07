@@ -2,6 +2,8 @@
 title: Programación II
 ---
 
+[← Volver a la home](index.md)
+
 # Programación II
 
 Bienvenidas y bienvenidos a la cursada de **Programación II**.
@@ -28,8 +30,8 @@ Bienvenidas y bienvenidos a la cursada de **Programación II**.
 ## Materiales y cronograma
 
 ### Guías para configurar el ambiente de trabajo
-* Configuración de [Visual Studio Code](./configuracion-entorno.md).
-* Configuración de [Git](./configuracion-git.md).
+* Configuración de [Visual Studio Code](https://unlu-prog-2.github.io/guia-tp/practicas/configuracion-entorno.html).
+* Configuración de [Git](https://unlu-prog-2.github.io/guia-tp/practicas/configuracion-git.html).
 
 
 ### Guía de trabajos prácticos
@@ -39,13 +41,13 @@ específico con las **fechas** para esta materia estará disponible próximament
 
 | Práctica                                               | Fecha de entrega |
 |--------------------------------------------------------|------------------|
-| [Práctica de repaso - Introducción a C](TP0_Repaso.md) | —                |
-| Práctica 1 - Recursividad                              | —                |
-| Práctica 2 - TADs                                      | —                |
-| TP Integrador 1 - Sopa de letras                       | —                |
-| Práctica 3 - Listas                                    | —                |
-| Práctica 4 - Pilas                                     | —                |
-| Práctica 5 - Colas                                     | —                |
-| Práctica 6 - Árboles                                   | —                |
-| Práctica 7 - Tablas de hash                            | —                |
-| Práctica 8 - Conjuntos                                 | —                |
+| [Práctica de repaso - Introducción a C](https://unlu-prog-2.github.io/guia-tp/practicas/TP0_Repaso.html) | —                |
+| [Práctica 1 - Recursividad](https://unlu-prog-2.github.io/guia-tp/practicas/TP1_Recursividad.html) | —                |
+| [Práctica 2 - TADs](https://unlu-prog-2.github.io/guia-tp/practicas/TP2_TADs.html) | —                |
+| [TP Integrador 1 - Sopa de letras](https://unlu-prog-2.github.io/guia-tp/practicas/TP_sopa_de_letras.html) | —                |
+| [Práctica 3 - Listas](https://unlu-prog-2.github.io/guia-tp/practicas/TP3_Listas.html) | —                |
+| [Práctica 4 - Pilas](https://unlu-prog-2.github.io/guia-tp/practicas/TP4_Pilas.html) | —                |
+| [Práctica 5 - Colas](https://unlu-prog-2.github.io/guia-tp/practicas/TP5_Colas.html) | —                |
+| [Práctica 6 - Árboles](https://unlu-prog-2.github.io/guia-tp/practicas/TP6_Arboles.html) | —                |
+| [Práctica 7 - Tablas de hash](https://unlu-prog-2.github.io/guia-tp/practicas/TP7_Tabla_Hash.html) | —                |
+| [Práctica 8 - Conjuntos](https://unlu-prog-2.github.io/guia-tp/practicas/TP8_Conjuntos.html) | —                |
