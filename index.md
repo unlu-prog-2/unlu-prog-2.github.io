@@ -2,8 +2,6 @@
 
 Bienvenidas y bienvenidos al sitio oficial de las asignaturas **Estructuras de Datos y Algoritmos 1** (EDA 1, plan nuevo) y **Programación 2** (plan viejo).
 
----
-
 ## 📚 Sobre las materias
 
 Esta cátedra dicta dos materias con contenidos relacionados pero programas ligeramente distintos:
@@ -23,8 +21,6 @@ Esta cátedra dicta dos materias con contenidos relacionados pero programas lige
 - **Mariano Goldman** — Ayudante (Chivilcoy)
 - **Claudia Reinaudi** — Ayudante (Luján)
 - **Franco Parzanese** — Ayudante (Chivilcoy)
-
----
 
 ## 🔗 Recursos y materiales
 
