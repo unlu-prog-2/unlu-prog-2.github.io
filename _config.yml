@@ -3,9 +3,11 @@ description: Materiales de la asignatura Programación 2 / EDA 1 de UNLu
 baseurl: ""
 url: "https://unlu-prog-2.github.io"
 
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
+remote_theme: pages-themes/architect@v0.2.0
 
 plugins:
-  - jekyll-feed
+- jekyll-remote-theme
+- jekyll-feed
 
 markdown: kramdown
