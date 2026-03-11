@@ -6,8 +6,8 @@ Si querés continuar con el editor, consultá la guía de VS Code en [configurac
 
 ## Contenido
 
-1. [Instalación de MinGW](#1-instalación-de-mingw)
-2. [Instalación de CMake](#2-instalación-de-cmake)
+1. [Instalación de MinGW](#1-instalacin-de-mingw)
+2. [Instalación de CMake](#2-instalacin-de-cmake)
 
 ---
 

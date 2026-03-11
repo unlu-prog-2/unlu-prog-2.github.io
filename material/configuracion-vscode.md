@@ -6,8 +6,8 @@ Antes de continuar, asegurate de tener instalado el compilador y CMake siguiendo
 
 ## Contenido
 
-1. [Instalación de Visual Studio Code](#1-instalación-de-visual-studio-code)
-2. [Instalación de extensiones de Visual Studio Code](#2-instalación-de-extensiones-de-visual-studio-code)
+1. [Instalación de Visual Studio Code](#1-instalacin-de-visual-studio-code)
+2. [Instalación de extensiones de Visual Studio Code](#2-instalacin-de-extensiones-de-visual-studio-code)
 3. [Primer programa C en Visual Studio Code](#3-primer-programa-c-en-visual-studio-code)
 
 ---
