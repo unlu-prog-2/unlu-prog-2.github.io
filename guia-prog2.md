@@ -36,15 +36,15 @@ Bienvenidas y bienvenidos a la cursada de **Programación II**.
 Podés acceder al material completo de prácticas y ejercicios desde la siguiente tabla. El cronograma de entregas
 específico con las **fechas** para esta materia estará disponible próximamente:
 
-| Práctica                                                           | Fecha de entrega |
-|--------------------------------------------------------------------|------------------|
-| [Práctica de repaso - Introducción a C](practicas/TP0_Repaso.md)   | —                |
-| [Práctica 1 - Recursividad](practicas/TP1_Recursividad.md)         | —                |
-| [Práctica 2 - TADs](practicas/TP2_TADs.md)                         | —                |
-| [TP Integrador 1 - Sopa de letras](practicas/TP_sopa_de_letras.md) | —                |
-| [Práctica 3 - Listas](practicas/TP3_Listas.md)                     | —                |
-| [Práctica 4 - Pilas](practicas/TP4_Pilas.md)                       | —                |
-| [Práctica 5 - Colas](practicas/TP5_Colas.md)                       | —                |
-| [Práctica 6 - Árboles](practicas/TP6_Arboles.md)                   | —                |
-| [Práctica 7 - Tablas de hash](practicas/TP7_Tabla_Hash.md)         | —                |
-| [Práctica 8 - Conjuntos](practicas/TP8_Conjuntos.md)               | —                |
+| Práctica                                                         | Fecha de entrega |
+|------------------------------------------------------------------|------------------|
+| [Práctica de repaso - Introducción a C](practicas/TP0_Repaso.md) | —                |
+| Práctica 1 - Recursividad                                        | —                |
+| Práctica 2 - TADs                                                | —                |
+| TP Integrador 1                                                  | —                |
+| Práctica 3 - Listas                                              | —                |
+| Práctica 4 - Pilas                                               | —                |
+| Práctica 5 - Colas                                               | —                |
+| Práctica 6 - Árboles                                             | —                |
+| Práctica 7 - Tablas de hash                                      | —                |
+| Práctica 8 - Conjuntos                                           | —                |

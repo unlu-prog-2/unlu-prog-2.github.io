@@ -35,12 +35,12 @@ Los temas más avanzados (Árboles, Tablas Hash, Conjuntos) corresponden a **EDA
 Podés acceder al material completo de prácticas y ejercicios desde la siguiente tabla. El cronograma de entregas
 específico con las **fechas** para esta materia estará disponible próximamente:
 
-| Práctica                                                           | Fecha de entrega |
-|--------------------------------------------------------------------|------------------|
-| [Práctica de repaso - Introducción a C](practicas/TP0_Repaso.md)   | —                |
-| [Práctica 1 - Recursividad](practicas/TP1_Recursividad.md)         | —                |
-| [Práctica 2 - TADs](practicas/TP2_TADs.md)                         | —                |
-| [TP Integrador 1 - Sopa de letras](practicas/TP_sopa_de_letras.md) | —                |
-| [Práctica 3 - Listas](practicas/TP3_Listas.md)                     | —                |
-| [Práctica 4 - Pilas](practicas/TP4_Pilas.md)                       | —                |
-| [Práctica 5 - Colas](practicas/TP5_Colas.md)                       | —                |
+| Práctica                                                         | Fecha de entrega |
+|------------------------------------------------------------------|------------------|
+| [Práctica de repaso - Introducción a C](practicas/TP0_Repaso.md) | —                |
+| Práctica 1 - Recursividad                                        | —                |
+| Práctica 2 - TADs                                                | —                |
+| TP Integrador                                                    | —                |
+| Práctica 3 - Listas                                              | —                |
+| Práctica 4 - Pilas                                               | —                |
+| Práctica 5 - Colas                                               | —                |
