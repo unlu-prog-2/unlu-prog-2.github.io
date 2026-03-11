@@ -6,11 +6,12 @@ Si querés continuar con el editor, consultá la guía de VS Code en [configurac
 
 ## Contenido
 
-1. [Instalación de MinGW](#1-instalacin-de-mingw)
-2. [Instalación de CMake](#2-instalacin-de-cmake)
+1. [Instalación de MinGW](#instalacion-de-mingw)
+2. [Instalación de CMake](#instalacion-de-cmake)
 
 ---
 
+<a id="instalacion-de-mingw"></a>
 ## 1. Instalación de MinGW
 
 MinGW (Minimalist GNU for Windows) es un port de las herramientas de desarrollo GNU para Windows, que incluye el compilador GCC para C/C++.
@@ -129,6 +130,7 @@ Errores posibles: si faltó agregar la carpeta `C:\MinGW\bin` a la variable PATH
 
 ---
 
+<a id="instalacion-de-cmake"></a>
 ## 2. Instalación de CMake
 
 CMake es un sistema de generación de archivos de construcción multiplataforma que facilita la gestión de proyectos C/C++. Permite definir la estructura del proyecto y sus dependencias de forma independiente del compilador.
