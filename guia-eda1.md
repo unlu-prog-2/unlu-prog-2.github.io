@@ -29,17 +29,18 @@ Los temas más avanzados (Árboles, Tablas Hash, Conjuntos) corresponden a **EDA
 ## Materiales y cronograma
 
 ### Guías para configurar el ambiente de trabajo
-* Configuración de [Visual Studio Code](https://unlu-prog-2.github.io/guia-tp/practicas/configuracion-entorno.html).
-* Configuración de [Git](https://unlu-prog-2.github.io/guia-tp/practicas/configuracion-git.html).
+* Configuración de [Visual Studio Code](practicas/configuracion-entorno.md).
+* Configuración de [Git](practicas/configuracion-git.md).
 
-### Guía de trabajos prácticos
+Podés acceder al material completo de prácticas y ejercicios desde la siguiente tabla. El cronograma de entregas
+específico con las **fechas** para esta materia estará disponible próximamente:
 
-Accede a las prácticas, ejercicios para resolver y trabajos prácticos de cada unidad:
-
-**→ [Guía de Trabajos Prácticos (sitio web)](https://unlu-prog-2.github.io/guia-tp/)**
-
-Desde allí encontrarás:
-- Enunciados de todos los trabajos prácticos
-- Ejercicios teóricos y prácticos
-- Guías de configuración del ambiente (VS Code, Git)
-- Cronogramas específicos por materia
+| Práctica                                                           | Fecha de entrega |
+|--------------------------------------------------------------------|------------------|
+| [Práctica de repaso - Introducción a C](practicas/TP0_Repaso.md)   | —                |
+| [Práctica 1 - Recursividad](practicas/TP1_Recursividad.md)         | —                |
+| [Práctica 2 - TADs](practicas/TP2_TADs.md)                         | —                |
+| [TP Integrador 1 - Sopa de letras](practicas/TP_sopa_de_letras.md) | —                |
+| [Práctica 3 - Listas](practicas/TP3_Listas.md)                     | —                |
+| [Práctica 4 - Pilas](practicas/TP4_Pilas.md)                       | —                |
+| [Práctica 5 - Colas](practicas/TP5_Colas.md)                       | —                |

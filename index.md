@@ -25,11 +25,13 @@ Esta cátedra dicta dos materias con contenidos relacionados pero programas lige
 ## 🔗 Recursos y materiales
 
 ### 📝 Guía de Trabajos Prácticos
-Accede a las prácticas, ejercicios para resolver y trabajos prácticos de cada unidad:
+Todo el contenido de prácticas ya está integrado en este sitio.
 
-**→ [Guía de Trabajos Prácticos (sitio web)](https://unlu-prog-2.github.io/guia-tp/)**
+**→ [Ver guía completa de EDA 1](guia-eda1.md)**
 
-Desde allí encontrarás:
+**→ [Ver guía completa de Programación 2](guia-prog2.md)**
+
+Desde esas páginas vas a encontrar:
 - Enunciados de todos los trabajos prácticos
 - Ejercicios teóricos y prácticos
 - Guías de configuración del ambiente (VS Code, Git)
