@@ -44,9 +44,73 @@ Un árbol n-ario puede ser representado como binario utilizando la **transformac
 
 Se propone un árbol binario derivado del n-ario, tal que para cada nodo del árbol n-ario, su primer hijo es el hijo izquierdo en el árbol binario, y los hermanos de cada nodo son sus hijos derechos.
 
-> Ejemplo: (n-ario a la izquierda, representado en binario a la derecha)
+Ejemplo: árbol n-ario
 
-![Árbol n-ario](imagenes/arbol-n-ario.png)
+```mermaid
+flowchart TB
+  A[A] --> B[B]
+  A --> C[C]
+  A --> D[D]
+  A --> E[E]
+  A --> F[F]
+  A --> G[G]
+  B --> H[H]
+  B --> I[I]
+  B --> J[J]
+  H --> N[N]
+  H --> O[O]
+  E --> K[K]
+  E --> L[L]
+  K --> P[P]
+  L --> Q[Q]
+  G --> M[M]
+```
+
+Representación del árbol n-ario en un árbol binario mediante la transformación de Knuth.
+
+```mermaid
+flowchart TB
+  classDef ghost fill:transparent,stroke:transparent,color:transparent;
+
+  A[A] --> B[B]
+  A --- AR[" "]
+
+  B --> H[H]
+  B --> C[C]
+
+  H --> N[N]
+  H --> I[I]
+
+  N --- NL[" "]
+  N --> O[O]
+
+  I --- IL[" "]
+  I --> J[J]
+
+  C --- CL[" "]
+  C --> D[D]
+
+  D --- DL[" "]
+  D --> E[E]
+
+  E --> K[K]
+  E --> F[F]
+
+  K --> P[P]
+  K --> L[L]
+
+  L --> Q[Q]
+  L --- LR[" "]
+
+  F --- FL[" "]
+  F --> G[G]
+
+  G --> M[M]
+  G --- GR[" "]
+
+  class AR,NL,IL,CL,DL,LR,FL,GR ghost;
+  linkStyle 1,6,8,10,12,19,20,23 stroke:transparent;
+```
 
 Dado un `árbol N-ario`, se pide implementar funciones que retornen:
 
