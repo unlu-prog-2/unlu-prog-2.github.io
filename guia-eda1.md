@@ -29,8 +29,8 @@ Los temas más avanzados (Árboles, Tablas Hash, Conjuntos) corresponden a **EDA
 ## Materiales y cronograma
 
 ### Guías para configurar el ambiente de trabajo
-* Configuración de [Visual Studio Code](practicas/configuracion-entorno.md).
-* Configuración de [Git](practicas/configuracion-git.md).
+* Configuración de [Visual Studio Code](material/configuracion-entorno.md).
+* Configuración de [Git](material/configuracion-git.md).
 
 Podés acceder al material completo de prácticas y ejercicios desde la siguiente tabla. El cronograma de entregas
 específico con las **fechas** para esta materia estará disponible próximamente:
