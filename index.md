@@ -22,7 +22,13 @@ Esta cátedra dicta dos materias con contenidos relacionados pero programas lige
 - **Claudia Reinaudi** — Ayudante (Luján)
 - **Franco Parzanese** — Ayudante (Chivilcoy)
 
-## 🔗 Recursos y materiales
+## � Comunidad Discord
+
+¿Preguntas? ¿Necesitas ayuda? ¡Únete a nuestro servidor de Discord!
+
+**→ [Entrar al Discord](https://discord.gg/TEprdzGkmG)**
+
+## �🔗 Recursos y materiales
 
 ### 📝 Guía de Trabajos Prácticos
 Todo el contenido de prácticas ya está integrado en este sitio.
