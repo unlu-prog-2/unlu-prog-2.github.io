@@ -12,3 +12,5 @@ Gemfile.lock
 # JetBrains IDEs
 .idea/
 
+node_modules/
+material/scripts/
