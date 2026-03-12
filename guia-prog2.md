@@ -30,7 +30,7 @@ Bienvenidas y bienvenidos a la cursada de **Programación II**.
 ## Materiales y cronograma
 
 ### Guías para configurar el ambiente de trabajo
-* Instalación del compilador C y CMake [C / CMake](material/configuracion-entorno.md).
+* Instalación del compilador [C / CMake](material/configuracion-entorno.md).
 * Configuración de [Visual Studio Code](material/configuracion-vscode.md).
 * Configuración de [Git](material/configuracion-git.md).
 

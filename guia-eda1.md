@@ -29,7 +29,7 @@ Los temas más avanzados (Árboles, Tablas Hash, Conjuntos) corresponden a **EDA
 ## Materiales y cronograma
 
 ### Guías para configurar el ambiente de trabajo
-* Instalación del compilador C y CMake [C / CMake](material/configuracion-entorno.md).
+* Instalación del compilador [C / CMake](material/configuracion-entorno.md).
 * Configuración de [Visual Studio Code](material/configuracion-vscode.md).
 * Configuración de [Git](material/configuracion-git.md).
 
