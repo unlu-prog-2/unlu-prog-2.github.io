@@ -198,3 +198,4 @@ Se pide:
 - Tener una opción para ver el diccionario que tiene.
 - Retornar en orden descendente de la palabra más usada a la menos usada, con la cantidad de apariciones.
 - Permitir escribir usando el diccionario, donde nos vaya dando las 5 palabras que podrían coincidir con lo que vamos escribiendo.
+
