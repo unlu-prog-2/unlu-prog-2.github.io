@@ -32,11 +32,8 @@ Bienvenidas y bienvenidos a la cursada de **Programación II**.
 ### Guías para configurar el ambiente de trabajo
 * Instalación del compilador [C / CMake](material/configuracion-entorno.md).
 * Configuración de [Visual Studio Code](material/configuracion-vscode.md).
-* Guías de [Git](material/git/index.md).
-* Configuración de [Git](material/git/configuracion-git.md).
-* Recetas rápidas de [Git en equipo](material/git/recetas-git.md).
-* Recetas rápidas de [GitHub CLI (gh)](material/git/recetas-gh.md).
-* Recetas rápidas de [Git en VS Code](material/git/recetas-git-vscode.md).
+* Guías de configuración y uso de [Git](material/git/index.md).
+* Guía del [modelo de memoria en C](material/modelo-de-memoria-c.md).
 
 Podés acceder al material completo de prácticas y ejercicios desde la siguiente tabla. El cronograma de entregas
 específico con las **fechas** para esta materia estará disponible próximamente:
