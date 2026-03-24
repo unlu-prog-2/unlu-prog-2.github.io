@@ -273,7 +273,7 @@ En cada uno de los siguientes casos, sin ejecutar el código, interpretar y just
         i++;
     }
     do {
-        printf("%d", array[--i]);
+        printf("%d ", array[--i]);
     } while (i >= 0);
 ```
 
@@ -287,8 +287,8 @@ En cada uno de los siguientes casos, sin ejecutar el código, interpretar y just
 
     void main(void){
         int y = 3, x = 4;
-        printf("La función devuelve %d", mi_funcion(y));
-        printf("La variable vale %d", x);
+        printf("La función devuelve %d\n", mi_funcion(y));
+        printf("La variable vale %d\n", x);
     }
 ```
 
@@ -311,7 +311,7 @@ En cada uno de los siguientes casos, sin ejecutar el código, interpretar y just
 ```c
     int datos(int x, float y, char c)
     {
-        printf("%d %f %c", x, y, c);
+        printf("%d %f %c\n", x, y, c);
         x = 8;
         y = 4.2;
         c = 'g';
@@ -324,7 +324,7 @@ En cada uno de los siguientes casos, sin ejecutar el código, interpretar y just
         float y = 44.6;
         char c = 'a';
         x = datos (x, y, c);
-        printf("%d %d %f %c", x, y, c);
+        printf("%d %f %c\n", x, y, c);
     }
 ```
 
@@ -338,13 +338,13 @@ En cada uno de los siguientes casos, sin ejecutar el código, interpretar y just
     void main(void){
         int i;
         struct medidas cajas[5];
-        for(i=0;i<5;i++) {
+        for (i = 0; i < 5; i++) {
             cajas[i].alto = 4;
             cajas[i].ancho = 2 * i;
             cajas[i].largo = i + 1;
         }
-        for(i=0;i<5;i++) {
-            printf("Medidas de cajas Nº%d: %d alto, %d ancho, %d largo", cajas[i].alto, cajas[i].ancho, cajas[i].largo);
+        for (i = 0; i < 5; i++) {
+            printf("Medidas de cajas Nº %d: %d alto, %d ancho, %d largo\n", cajas[i].alto, cajas[i].ancho, cajas[i].largo);
         }
     }
 ```
