@@ -155,6 +155,48 @@ Se pide escribir funciones que informen:
 
 ### Ejercicio 5
 
+Dado un archivo de texto que contiene datos de minutos trabajos por personal de una consultora de sistemas informáticos a diferentes clientes, se pide obtener los totales por cliente/año en forma de grilla como se muestra debajo.
+
+El archivo contiene los siguientes datos: `Cliente Año Mes Minutos_Trabajados`. El separador de campos es un `Tabulador`.
+
+A continuación se muestra un pequeño ejemplo. Si tuviera el siguiente contenido:
+
+```txt
+    // Cliente Anio    Mes Minutos_Trabajados
+        1000    2019    01  1001
+        1000    2019    02  50
+        1001    2020    02  120
+        1001    2021    03  96
+        1001    2022    01  48
+    ...
+```
+
+La tabla a producir por el programa debería ser:
+
+| Clientes / Años | 2019 | 2020 | 2021 | 2022 |
+|-----------------|------|------|------|------|
+| 1000            | 1051 |      |      |      |
+| 1001            |      | 120  | 96   | 48   |
+
+La guía incluye un TXT con estos datos según lo especificado a procesar con el nombre `TP0_EJ6.txt` que contiene aprox. unas 65500 filas a procesar.
+
+La función a implementar tiene la siguiente firma:
+
+```c
+#define CANT_MAX_ANIOS 100
+#define CANT_MAX_CLIENTES 10000
+#define ANIO_INICIO 2013
+
+struct Cliente {
+    int id;
+    int totalesPorAnio[CANT_MAX_ANIOS];
+};
+
+void procesarArchivo(const char *nombreArchivo);
+```
+
+### Ejercicio 6
+
 Se quiere controlar el número de habitantes de un edificio con 8 pisos y 5 departamentos (A, B, C, D y E) en cada piso.
 Se pide escribir funciones que informen:
 
@@ -200,48 +242,6 @@ void viviendasVacias(int edificio[CANT_PISOS][CANT_DEPARTAMENTOS], Vivienda vivi
     viviendasVacias(edificio)                  // 1E  2D  3B  4A  4C  4D  4E  6C  7B  7C  8A  8B
     promedioHabitantesPorVivienda(edificio)    // 1.325
     viviendaConMasHabitantes(edificio)         // 1B
-```
-
-### Ejercicio 6
-
-Dado un archivo de texto que contiene datos de minutos trabajos por personal de una consultora de sistemas informáticos a diferentes clientes, se pide obtener los totales por cliente/año en forma de grilla como se muestra debajo.
-
-El archivo contiene los siguientes datos: `Cliente Año Mes Minutos_Trabajados`. El separador de campos es un `Tabulador`.
-
-A continuación se muestra un pequeño ejemplo. Si tuviera el siguiente contenido:
-
-```txt
-    // Cliente Anio    Mes Minutos_Trabajados
-        1000    2019    01  1001
-        1000    2019    02  50
-        1001    2020    02  120
-        1001    2021    03  96
-        1001    2022    01  48
-    ...
-```
-
-La tabla a producir por el programa debería ser:
-
-| Clientes / Años | 2019 | 2020 | 2021 | 2022 |
-|-----------------|------|------|------|------|
-| 1000            | 1051 |      |      |      |
-| 1001            |      | 120  | 96   | 48   |
-
-La guía incluye un TXT con estos datos según lo especificado a procesar con el nombre `TP0_EJ6.txt` que contiene aprox. unas 65500 filas a procesar.
-
-La función a implementar tiene la siguiente firma:
-
-```c
-#define CANT_MAX_ANIOS 100
-#define CANT_MAX_CLIENTES 10000
-#define ANIO_INICIO 2013
-
-struct Cliente {
-    int id;
-    int totalesPorAnio[CANT_MAX_ANIOS];
-};
-
-void procesarArchivo(const char *nombreArchivo);
 ```
 
 ---
