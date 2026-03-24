@@ -178,7 +178,7 @@ La tabla a producir por el programa debería ser:
 | 1000            | 1051 |      |      |      |
 | 1001            |      | 120  | 96   | 48   |
 
-La guía incluye un TXT con estos datos según lo especificado a procesar con el nombre `TP0_EJ6.txt` que contiene aprox. unas 65500 filas a procesar.
+La guía incluye un TXT con estos datos según lo especificado a procesar con el nombre `TP0_EJ5.txt` que contiene aprox. unas 65500 filas a procesar. Y además un archivo `TP0_EJ5_esperado.txt` con el contenido esperado. Además, en el archivo de pruebas se incluye una función que compara el contenido producido por el algoritmo con el esperado para ver que sean iguales.
 
 La función a implementar tiene la siguiente firma:
 
