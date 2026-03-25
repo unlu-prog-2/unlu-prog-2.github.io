@@ -4,7 +4,7 @@
 
 ### Ejercicio 1
 
-Construir una función recursiva que retorne verdadero si un número entero recivido como parámetro es capicua.
+Construir una función recursiva que retorne verdadero si un número entero recibido como parámetro es capicúa.
 
 > **Capicua:** número simétrico que, por ello, se lee igual de izquierda a derecha que de derecha a izquierda. Ejemplos: 161, 2992, 3003.
 
@@ -176,8 +176,8 @@ Escribir una función que implemente el método que se describe para saber si un
 >
 > * Se separa la primera cifra de la derecha,
 > * Se la multiplica por `2`, y
-> * se resta este producto de lo que queda a la izquierda
-> * así sucesivamente, hasta que el resultado obtenido sea un número menor a `70`.
+> * Se resta este producto de lo que queda a la izquierda
+> * Así sucesivamente, hasta que el resultado obtenido sea un número menor a `70`.
 >
 > El número original será **múltiplo de 7** si el resultado da cero o múltiplo de `7`.
 

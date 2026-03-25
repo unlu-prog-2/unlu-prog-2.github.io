@@ -344,7 +344,7 @@ En cada uno de los siguientes casos, sin ejecutar el código, interpretar y just
             cajas[i].largo = i + 1;
         }
         for (i = 0; i < 5; i++) {
-            printf("Medidas de cajas Nº %d: %d alto, %d ancho, %d largo\n", cajas[i].alto, cajas[i].ancho, cajas[i].largo);
+            printf("Medidas de cajas Nº %d: %d alto, %d ancho, %d largo\n", i, cajas[i].alto, cajas[i].ancho, cajas[i].largo);
         }
     }
 ```
