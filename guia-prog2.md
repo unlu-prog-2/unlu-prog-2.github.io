@@ -41,7 +41,7 @@ específico con las **fechas** para esta materia estará disponible próximament
 | Práctica                                                         | Fecha de entrega |
 |------------------------------------------------------------------|------------------|
 | [Práctica de repaso - Introducción a C](practicas/TP0_Repaso.md) | —                |
-| [Práctica 1 - Recursividad](practicas/TP1_Recursividad.md)       | —                |
+| Práctica 1 - Recursividad                                        | —                |
 | Práctica 2 - TADs                                                | —                |
 | TP Integrador 1                                                  | —                |
 | Práctica 3 - Listas                                              | —                |
