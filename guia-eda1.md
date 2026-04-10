@@ -33,6 +33,7 @@ Los temas más avanzados (Árboles, Tablas Hash, Conjuntos) corresponden a **EDA
 * Configuración de [Visual Studio Code](material/configuracion-vscode.md).
 * Guías de configuración y uso de [Git](material/git/index.md).
 * Guía del [modelo de memoria en C](material/modelo-de-memoria-c.md).
+* Introducción a la [técnica de Backtracking](material/backtracking-introduccion.md).
 
 Podés acceder al material completo de prácticas y ejercicios desde la siguiente tabla. El cronograma de entregas
 específico con las **fechas** para esta materia estará disponible próximamente:
