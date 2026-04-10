@@ -43,8 +43,8 @@ específico con las **fechas** para esta materia estará disponible próximament
 |-------------------------------------------------------------------|------------------|
 | [Práctica de repaso - Introducción a C](practicas/TP0_Repaso.md)  | —                |
 | [Práctica 1 - Recursividad](practicas/TP1_Recursividad.md)        | 17/04            |
-| [TP Integrador - Ruta de escape](practicas/TP_ruta_de_rescate.md) | 17/04            |
-| Práctica 2 - TADs                                                 | —                |
+| [TP Integrador - Ruta de escape](practicas/TP_ruta_de_rescate.md) | 24/04            |
+| [Práctica 2 - TADs](practicas/TP2_TADs.md)                        | —                |
 | Práctica 3 - Listas                                               | —                |
 | Práctica 4 - Pilas                                                | —                |
 | Práctica 5 - Colas                                                | —                |
