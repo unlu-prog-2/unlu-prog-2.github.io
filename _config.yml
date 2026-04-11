@@ -6,4 +6,7 @@ url: "https://unlu-prog-2.github.io"
 plugins:
 - jekyll-feed
 
-markdown: GFM
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
