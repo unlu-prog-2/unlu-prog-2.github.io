@@ -184,9 +184,9 @@ En cada celda `(f, c)`:
 1. Si está fuera de rango o bloqueada, ese camino falla.
 2. Si ya fue visitada en el camino actual, falla (evita ciclos).
 3. Si es la salida, éxito.
-4. Marcar como visitada.
+4. Guardar el carácter actual y marcar temporalmente con `V`.
 5. Probar movimientos en un orden fijo (por ejemplo `Arriba`, `Abajo`, `Derecha`, `Izquierda`).
-6. Si ninguno funciona, desmarcar (backtracking) y devolver falla.
+6. Si ninguno funciona, restaurar el carácter original (backtracking) y devolver falla.
 
 Ese desmarcado es clave: permite que la celda pueda ser usada por otro camino alternativo.
 
@@ -212,14 +212,13 @@ bool buscar_salida(
     int filas,
     int columnas,
     int f,
-    int c,
-    bool **visitado
+    int c
 ) {
     if (f < 0 || f >= filas || c < 0 || c >= columnas) {
         return false;
     }
 
-    if (mapa[f][c] == '#' || visitado[f][c]) {
+    if (mapa[f][c] == '#' || mapa[f][c] == 'V') {
         return false;
     }
 
@@ -227,17 +226,19 @@ bool buscar_salida(
         return true;
     }
 
-    visitado[f][c] = true;
+    char anterior = mapa[f][c];
+    mapa[f][c] = 'V';
 
-    // Orden fijo de prueba: A, B, D, I
-    if (buscar_salida(mapa, filas, columnas, f - 1, c, visitado) ||
-        buscar_salida(mapa, filas, columnas, f + 1, c, visitado) ||
-        buscar_salida(mapa, filas, columnas, f, c + 1, visitado) ||
-        buscar_salida(mapa, filas, columnas, f, c - 1, visitado)) {
+    // Orden fijo de prueba: Arriba, Abajo, Derecha, Izquierda
+    if (buscar_salida(mapa, filas, columnas, f - 1, c) ||
+        buscar_salida(mapa, filas, columnas, f + 1, c) ||
+        buscar_salida(mapa, filas, columnas, f, c + 1) ||
+        buscar_salida(mapa, filas, columnas, f, c - 1)) {
+        mapa[f][c] = anterior;
         return true;
     }
 
-    visitado[f][c] = false;
+    mapa[f][c] = anterior;
     return false;
 }
 ```
@@ -247,7 +248,7 @@ bool buscar_salida(
 Si la grilla tiene `F` filas y `C` columnas, llamando `N = F * C`:
 
 - peor caso de tiempo: exponencial, típicamente acotado por $O(4^N)$;
-- memoria extra: $O(N)$ por la profundidad de la recursión y estructura de visitados.
+- memoria extra: $O(N)$ por la profundidad de la recursión (sin estructura adicional de visitados).
 
 En la práctica, las podas (bloqueos, límites, visitados y orden de movimientos) reducen mucho la exploración real.
 
