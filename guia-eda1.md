@@ -41,10 +41,10 @@ específico con las **fechas** para esta materia estará disponible próximament
 
 | Práctica                                                          | Fecha de entrega |
 |-------------------------------------------------------------------|------------------|
-| [Práctica de repaso - Introducción a C](practicas/TP0_Repaso.md)  | —                |
+| [Práctica de repaso - Introducción a C](practicas/TP0_Repaso.md)  | No se entrega    |
 | [Práctica 1 - Recursividad](practicas/TP1_Recursividad.md)        | 17/04            |
 | [TP Integrador - Ruta de escape](practicas/TP_ruta_de_rescate.md) | 24/04            |
-| [Práctica 2 - TADs](practicas/TP2_TADs.md)                        | —                |
-| Práctica 3 - Listas                                               | —                |
+| [Práctica 2 - TADs](practicas/TP2_TADs.md)                        | No se entrega    |
+| [Práctica 3 - Listas](practicas/TP3_Listas.md)                    | —                |
 | Práctica 4 - Pilas                                                | —                |
 | Práctica 5 - Colas                                                | —                |
