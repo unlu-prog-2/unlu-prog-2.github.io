@@ -313,6 +313,18 @@ TipoElemento siguiente(Iterador iter) {
 
 El estado del iterador es un puntero que sigue la cadena de nodos.
 
+Ejemplo rápido de avance del iterador (punteros):
+
+```
+inicio -> [A | * ] -> [B | * ] -> [C | NULL]
+```
+
+1. Al crear el iterador: `posicionActual = inicio` (apunta al nodo con `A`).
+2. Primera llamada a `siguiente`: devuelve `A` y avanza al nodo con `B`.
+3. Segunda llamada a `siguiente`: devuelve `B` y avanza al nodo con `C`.
+4. Tercera llamada a `siguiente`: devuelve `C` y avanza a `NULL`.
+5. Ahora `hay_siguiente` devuelve `false` porque `posicionActual == NULL`.
+
 #### Iterador en cursores
 
 ```c
