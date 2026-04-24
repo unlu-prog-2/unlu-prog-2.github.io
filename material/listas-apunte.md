@@ -18,19 +18,19 @@ El TAD define *qué* se puede hacer con una lista, sin decir *cómo* está guard
 
 ### Operaciones abstractas
 
-| Operación | Firma | Intención |
-|-----------|-------|-----------|
-| Crear | `Lista l_crear()` | Devuelve una lista vacía lista para usar. |
-| ¿Vacía? | `bool l_es_vacia(Lista)` | Indica si la lista no contiene ningún elemento. |
-| ¿Llena? | `bool l_es_llena(Lista)` | Indica si la lista ya no puede recibir más elementos (relevante en implementaciones acotadas). |
-| Longitud | `int l_longitud(Lista)` | Devuelve la cantidad de elementos en la lista. |
-| Agregar | `bool l_agregar(Lista, TipoElemento)` | Inserta un elemento al final de la lista. Devuelve `false` si la lista está llena. |
-| Insertar | `bool l_insertar(Lista, TipoElemento, int pos)` | Inserta un elemento en la posición `pos`, desplazando hacia adelante los siguientes. Si `pos` supera la longitud, agrega al final. |
-| Borrar | `bool l_borrar(Lista, int clave)` | Elimina **todos** los elementos con la clave indicada. Devuelve `false` si no encontró ninguno. |
-| Eliminar | `bool l_eliminar(Lista, int pos)` | Elimina el elemento en la posición `pos`. |
-| Buscar | `TipoElemento l_buscar(Lista, int clave)` | Devuelve el primer elemento cuya clave coincide, o `NULL` si no existe. |
-| Recuperar | `TipoElemento l_recuperar(Lista, int pos)` | Devuelve el elemento en la posición `pos` sin eliminarlo, o `NULL` si `pos` es inválida. |
-| Mostrar | `void l_mostrar(Lista)` | Imprime el contenido de la lista por pantalla. |
+| Operación | Firma                                           | Intención                                                                                                                          |
+|-----------|-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| Crear     | `Lista l_crear()`                               | Devuelve una lista vacía lista para usar.                                                                                          |
+| ¿Vacía?   | `bool l_es_vacia(Lista)`                        | Indica si la lista no contiene ningún elemento.                                                                                    |
+| ¿Llena?   | `bool l_es_llena(Lista)`                        | Indica si la lista ya no puede recibir más elementos (relevante en implementaciones acotadas).                                     |
+| Longitud  | `int l_longitud(Lista)`                         | Devuelve la cantidad de elementos en la lista.                                                                                     |
+| Agregar   | `bool l_agregar(Lista, TipoElemento)`           | Inserta un elemento al final de la lista. Devuelve `false` si la lista está llena.                                                 |
+| Insertar  | `bool l_insertar(Lista, TipoElemento, int pos)` | Inserta un elemento en la posición `pos`, desplazando hacia adelante los siguientes. Si `pos` supera la longitud, agrega al final. |
+| Borrar    | `bool l_borrar(Lista, int clave)`               | Elimina **todos** los elementos con la clave indicada. Devuelve `false` si no encontró ninguno.                                    |
+| Eliminar  | `bool l_eliminar(Lista, int pos)`               | Elimina el elemento en la posición `pos`.                                                                                          |
+| Buscar    | `TipoElemento l_buscar(Lista, int clave)`       | Devuelve el primer elemento cuya clave coincide, o `NULL` si no existe.                                                            |
+| Recuperar | `TipoElemento l_recuperar(Lista, int pos)`      | Devuelve el elemento en la posición `pos` sin eliminarlo, o `NULL` si `pos` es inválida.                                           |
+| Mostrar   | `void l_mostrar(Lista)`                         | Imprime el contenido de la lista por pantalla.                                                                                     |
 
 ### Sobre posiciones ordinales
 
@@ -194,18 +194,18 @@ libre = 0 → 1 → 2 → 3 → ... → 999 → NULO
 
 $n$ = cantidad de elementos en la lista. El análisis asume **peor caso**.
 
-| Operación | Arreglo | Punteros | Cursores | Notas |
-|-----------|:-------:|:--------:|:--------:|-------|
-| `l_crear` | $O(N)$ | $O(1)$ | $O(N)$ | Arreglos y cursores alocan $N$ celdas; punteros sólo la cabecera. |
-| `l_es_vacia` | $O(1)$ | $O(1)$ | $O(1)$ | Compara `cantidad == 0`. |
-| `l_es_llena` | $O(1)$ | $O(1)$ | $O(1)$ | Compara `cantidad == TAMANIO_MAXIMO`. |
-| `l_longitud` | $O(1)$ | $O(1)$ | $O(1)$ | El contador `cantidad` se mantiene actualizado. |
-| `l_agregar` | $O(1)$ | $O(n)$ | $O(n)$ | Arreglos: inserta en `valores[cantidad]`. Punteros/cursores: recorre hasta el último nodo. |
-| `l_borrar` | $O(n)$ | $O(n)$ | $O(n)$ | Recorre toda la lista para eliminar todas las ocurrencias; desplaza o reenlaza. |
-| `l_buscar` | $O(n)$ | $O(n)$ | $O(n)$ | Búsqueda lineal por clave. |
-| `l_insertar` | $O(n)$ | $O(n)$ | $O(n)$ | Arreglos: desplaza $n - pos$ elementos. Punteros/cursores: recorre hasta `pos - 1`. |
-| `l_eliminar` | $O(n)$ | $O(n)$ | $O(n)$ | Arreglos: desplaza $n - pos$ elementos. Punteros/cursores: recorre hasta `pos - 1`. |
-| `l_recuperar` | $O(1)$ | $O(n)$ | $O(n)$ | Arreglos: acceso directo `valores[pos-1]`. Punteros/cursores: recorre hasta `pos`. |
+| Operación     | Arreglo | Punteros | Cursores | Notas                                                                                      |
+|---------------|:-------:|:--------:|:--------:|--------------------------------------------------------------------------------------------|
+| `l_crear`     | $O(N)$  |  $O(1)$  |  $O(N)$  | Arreglos y cursores alocan $N$ celdas; punteros sólo la cabecera.                          |
+| `l_es_vacia`  | $O(1)$  |  $O(1)$  |  $O(1)$  | Compara `cantidad == 0`.                                                                   |
+| `l_es_llena`  | $O(1)$  |  $O(1)$  |  $O(1)$  | Compara `cantidad == TAMANIO_MAXIMO`.                                                      |
+| `l_longitud`  | $O(1)$  |  $O(1)$  |  $O(1)$  | El contador `cantidad` se mantiene actualizado.                                            |
+| `l_agregar`   | $O(1)$  |  $O(n)$  |  $O(n)$  | Arreglos: inserta en `valores[cantidad]`. Punteros/cursores: recorre hasta el último nodo. |
+| `l_borrar`    | $O(n)$  |  $O(n)$  |  $O(n)$  | Recorre toda la lista para eliminar todas las ocurrencias; desplaza o reenlaza.            |
+| `l_buscar`    | $O(n)$  |  $O(n)$  |  $O(n)$  | Búsqueda lineal por clave.                                                                 |
+| `l_insertar`  | $O(n)$  |  $O(n)$  |  $O(n)$  | Arreglos: desplaza $n - pos$ elementos. Punteros/cursores: recorre hasta `pos - 1`.        |
+| `l_eliminar`  | $O(n)$  |  $O(n)$  |  $O(n)$  | Arreglos: desplaza $n - pos$ elementos. Punteros/cursores: recorre hasta `pos - 1`.        |
+| `l_recuperar` | $O(1)$  |  $O(n)$  |  $O(n)$  | Arreglos: acceso directo `valores[pos-1]`. Punteros/cursores: recorre hasta `pos`.         |
 
 > **Nota sobre $N$:** en los casos de `l_crear`, $N$ es el tamaño máximo fijo del arreglo (`TAMANIO_MAXIMO = 1000`), no la cantidad de elementos actuales.
 
@@ -370,12 +370,12 @@ cursor[2] = [dato=C, siguiente=-1]
 
 ### Complejidad del iterador
 
-| Operación | Arreglo | Punteros | Cursores |
-|-----------|:-------:|:--------:|:--------:|
-| `iterador(lista)` | $O(1)$ | $O(1)$ | $O(1)$ |
-| `hay_siguiente(iter)` | $O(1)$ | $O(1)$ | $O(1)$ |
-| `siguiente(iter)` | $O(1)$ | $O(1)$ | $O(1)$ |
-| Recorrido completo | $O(n)$ | $O(n)$ | $O(n)$ |
+| Operación             | Arreglo | Punteros | Cursores |
+|-----------------------|:-------:|:--------:|:--------:|
+| `iterador(lista)`     | $O(1)$  |  $O(1)$  |  $O(1)$  |
+| `hay_siguiente(iter)` | $O(1)$  |  $O(1)$  |  $O(1)$  |
+| `siguiente(iter)`     | $O(1)$  |  $O(1)$  |  $O(1)$  |
+| Recorrido completo    | $O(n)$  |  $O(n)$  |  $O(n)$  |
 
 ---
 
@@ -400,9 +400,9 @@ void imprimir_lista(Lista lista) {
 
 | Implementación | Complejidad |
 |----------------|:-----------:|
-| Arreglo | $O(n)$ |
-| Punteros | $O(n)$ |
-| Cursores | $O(n)$ |
+| Arreglo        |   $O(n)$    |
+| Punteros       |   $O(n)$    |
+| Cursores       |   $O(n)$    |
 
 El iterador garantiza O(n) en todos los casos. Sin iterador, usando `l_recuperar` en un for, punteros y cursores serían O(n²).
 
@@ -434,9 +434,9 @@ TipoElemento maximo(Lista lista) {
 
 | Implementación | Complejidad |
 |----------------|:-----------:|
-| Arreglo | $O(n)$ |
-| Punteros | $O(n)$ |
-| Cursores | $O(n)$ |
+| Arreglo        |   $O(n)$    |
+| Punteros       |   $O(n)$    |
+| Cursores       |   $O(n)$    |
 
 Búsqueda lineal: hay que visitar todos los elementos en el peor caso.
 
@@ -463,9 +463,9 @@ int contar_ocurrencias(Lista lista, int clave) {
 
 | Implementación | Complejidad |
 |----------------|:-----------:|
-| Arreglo | $O(n)$ |
-| Punteros | $O(n)$ |
-| Cursores | $O(n)$ |
+| Arreglo        |   $O(n)$    |
+| Punteros       |   $O(n)$    |
+| Cursores       |   $O(n)$    |
 
 Siempre O(n): hay que recorrer toda la lista porque puede haber duplicados al final.
 
@@ -492,11 +492,11 @@ void insertar_ordenado(Lista lista, TipoElemento nuevo) {
 
 **Complejidad:**
 
-| Implementación | Búsqueda de posición | Inserción | Total |
-|----------------|:--------------------:|:---------:|:-----:|
-| Arreglo | $O(n)$ | $O(n)$ | $O(n)$ |
-| Punteros | $O(n^2)$ | $O(n)$ | $O(n^2)$ |
-| Cursores | $O(n^2)$ | $O(n)$ | $O(n^2)$ |
+| Implementación | Búsqueda de posición | Inserción |  Total   |
+|----------------|:--------------------:|:---------:|:--------:|
+| Arreglo        |        $O(n)$        |  $O(n)$   |  $O(n)$  |
+| Punteros       |       $O(n^2)$       |  $O(n)$   | $O(n^2)$ |
+| Cursores       |       $O(n^2)$       |  $O(n)$   | $O(n^2)$ |
 
 En arreglos `l_recuperar` es O(1), por lo que el bucle de búsqueda es O(n). En punteros y cursores, cada llamada a `l_recuperar` es O(n), lo que hace que el bucle sea O(n²).
 
@@ -518,9 +518,9 @@ void insertar_ordenado_v2(Lista lista, TipoElemento nuevo) {
 
 | Implementación | Complejidad |
 |----------------|:-----------:|
-| Arreglo | $O(n)$ |
-| Punteros | $O(n)$ |
-| Cursores | $O(n)$ |
+| Arreglo        |   $O(n)$    |
+| Punteros       |   $O(n)$    |
+| Cursores       |   $O(n)$    |
 
 La búsqueda de posición pasa a ser O(n) en todos los casos al usar el iterador. La inserción sigue siendo O(n) por el desplazamiento o recorrido hasta la posición.
 
@@ -553,8 +553,8 @@ Lista invertir_lista(Lista original) {
 
 | Implementación | Complejidad |
 |----------------|:-----------:|
-| Arreglo | $O(n^2)$ |
-| Punteros | $O(n)$ |
-| Cursores | $O(n)$ |
+| Arreglo        |  $O(n^2)$   |
+| Punteros       |   $O(n)$    |
+| Cursores       |   $O(n)$    |
 
 Este caso ilustra una situación donde **punteros y cursores superan claramente a arreglos**: las inserciones repetidas al inicio tienen un costo muy diferente.
