@@ -41,6 +41,7 @@ Bienvenidas y bienvenidos a la cursada de **Programación II**.
 * [TAD Colas - operaciones, implementaciones y complejidad](material/colas-apunte.md).
 * [TAD Árboles — binario, de búsqueda y AVL](material/arboles-apunte.md).
 * [Árboles B y B+](material/arboles-b-apunte.md).
+* [TAD Tablas Hash - operaciones, colisiones y complejidad](material/tablas-hash-apunte.md).
 
 Podés acceder al material completo de prácticas y ejercicios desde la siguiente tabla. El cronograma de entregas
 específico con las **fechas** para esta materia estará disponible próximamente:
