@@ -55,5 +55,5 @@ específico con las **fechas** para esta materia estará disponible próximament
 | [Práctica 4 - Pilas](practicas/TP4_Pilas.md)                      | 29/05            |
 | [Práctica 5 - Colas](practicas/TP5_Colas.md)                      | 05/06            |
 | [Práctica 6 - Árboles](practicas/TP6_Arboles.md)                  | 12/06            |
-| [Práctica 7 - Tablas de hash](practicas/TP7_Tabla_Hash.md)        | 19/06            |
+| [Práctica 7 - Tablas de hash](practicas/TP7_Tabla_Hash.md)        | 23/06            |
 | Práctica 8 - Conjuntos                                            | —                |
